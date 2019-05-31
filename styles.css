@@ -1,0 +1,78 @@
+
+:root{
+    box-sizing: border-box;
+    --color-1:#FF5252;
+    --color-2:#222222;
+    --color-3:white;    
+    --text-title:'Roboto', sans-serif;
+    --text-line:'Montserrat', sans-serif;
+    --border-radius-principal:10px;  
+}
+body{
+    background-color: grey;
+}
+.formulario{
+    border: 1px solid var(--color-1);
+    width: 300px ;
+    height: 450px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:0 0 3px grey;
+    background-color: var(--color-2);
+    border-radius: var(--border-radius-principal);
+}
+.title {
+    text-align: center;
+    color: var(--color-3);
+    font-family: var(--text-title);
+}
+.main-form{
+    height: 200px;
+    padding: 50px ;
+}
+.footer-form{
+    margin-top: 10px;
+    color: var(--color-1);
+    font-family: var(--text-line);
+    font-size: .8rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.campo{
+    margin-bottom: 50px;
+}
+#email {
+    border: 1px solid var(--color-1);
+    width: 196px;
+    height: 40px;
+    border-radius:  var(--border-radius-principal);
+    font-family: var(--text-line);
+}
+#password{
+    border: 1px solid  var(--color-1);
+    width: 196px;
+    height: 40px;
+    border-radius: var(--border-radius-principal);
+    font-family: var(--text-line)
+}
+#botton{
+    width: 98px;
+    border: 1.5px solid var(--color-1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--color-2);
+    font-family: var(--text-line);
+}
+a{
+    color: var(--color-1);
+    display: inline-block;
+    float: right;
+}
+#recordatorio{
+    display: inline-block;  
+}
