@@ -70,9 +70,11 @@ body{
 }
 a{
     color: var(--color-1);
-    display: inline-block;
     float: right;
 }
 #recordatorio{
     display: inline-block;  
+}
+input{
+    outline: none;
 }
